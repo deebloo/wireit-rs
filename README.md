@@ -1,3 +1,9 @@
 # wireit-rs
 
-Exercise to write some core parts of wireit in rust. (compileable to wasm)
+```mermaid
+graph TD
+  parser --> analyzer
+  analyzer --> task1
+  analyzer --> task2
+  task2 --> task3
+```
